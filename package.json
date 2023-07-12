@@ -3,9 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "firebase": "^8.10.0",
+    "firebase": "^8.10.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "5.0.1",
     "rsuite": "^4.10.2",
@@ -16,8 +17,8 @@
     "build": "npm run clear &&  react-scripts build",
     "format": "prettier --write src/**/*.{js,jsx}",
     "lint": "eslint src/**/*.js",
-  "format:lint": "npm run format && npm run lint",
-  "clear": "rimraf build"
+    "format:lint": "npm run format && npm run lint",
+    "clear": "rimraf build"
   },
   "eslintConfig": {
     "extends": [
